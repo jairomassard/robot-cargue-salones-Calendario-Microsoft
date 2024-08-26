@@ -1,0 +1,22 @@
+{
+  "name": "contenido-calendarios_microsoft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "contenido-calendarios_microsoft": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/identity": "^4.1.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "dotenv": "^16.4.5",
+    "md5": "^2.3.0",
+    "node-fetch": "^2.7.0",
+    "moment-timezone": "^0.5.45"
+  }
+}
